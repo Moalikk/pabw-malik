@@ -1,26 +1,18 @@
-# My Game Collection
+# PABW · Muhammad Malik Firdaus · 25523002
 
-A webpage displaying my favorite video games and a form to add a new ones.
+This repo holds coursework for Web-Based Application Development, one folder per meeting.
 
-## Navigation Links
-- Home
-- Game List
-- Add Game
+## Meeting 3 · My profile page\
 
-## Main Sections
-- My Games Table
-- Add New Game
+My page topic: video game collection.
 
-## Planned Table Coulmns
-- Title
-- Genre
-- PLatform
-- Rating
+- Page title: My Game Collection
+- Description: a collection of video games i play and a form to add new ones
+- Navigation links: Home, Game List, Add Game
+- Two Main Sections: My Game Table, Add New Game
+- Table Columns: Title, Genre, Platform, Rating
+- Form Columns: Title, Genre, Rating
+- Image: Game-Icon.jpg
 
-## Planned From Inputs
-- Title
-- Genre
-- Rating
-
-## Media
-- Image file: Game-Icon.jpg
+## Note on AI use
+AI was used to helo git commands.
