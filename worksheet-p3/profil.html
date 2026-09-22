@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Games Collection</title>
+</head>
+<body>
+    <header>
+        <h1>My Games Collection</h1>
+        <p>A list of games played and a form for adding new items to the collection.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Game List</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th>Platform</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pokémon Legends Z-A</td>
+                        <td>Action RPG</td>
+                        <td>Nintendo Switch</td>
+                        <td>5/5</td>
+                    </tr>
+                    <tr>
+                        <td>Valorant</td>
+                        <td>FPS</td>
+                        <td>PC</td>
+                        <td>3/5</td>
+                    </tr>
+                    <tr>
+                        <td>Tower Defense Simulator</td>
+                        <td>Tower Defense</td>
+                        <td>PC & Mobile</td>
+                        <td>4/5</td>
+                    </tr>
+                    <tr>
+                        <td>Tekken 8</td>
+                        <td>Action</td>
+                        <td>Console</td>
+                        <td>5/5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Add New Game</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="title">Game Title:</label><br>
+                    <input type="text" id="title" name="title" placeholder="e.g Elden Rings" required>
+                </p>
+                <p>
+                    <label for="genre">Genre:</label><br>
+                    <select id="genre" name="genre" required>
+                        <option> value="" Select Genre </option>
+                        <option> value="RPG" RPG </option>
+                        <option> value="FPS" FPS </option>
+                        <option> value="Action" Action </option>
+                        <option> value="Tower Defense" Tower Defense </option>
+                        <option> value="Simulation" simulation </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="platform">Platform:</label><br>
+                    <select id="platform" name="platform" required>
+                        <option> value="" Select Platform </option>
+                        <option> value="PC" PC </option>
+                        <option> value="Mobile" Mobile </option>
+                        <option> value="Nintendo Switch" Nintendo Switch </option>
+                        <option> value="Console" Console </option>
+                        <option> value="Xbox" Xbox </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="rating">Rating (1-5)</label><br>
+                    <input type="number" id="rating" name="rating" min="1" max="5" step="0.5" placeholder="5" required>
+                </p>
+                <p>
+                    <button type="submit">Add Game</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <fotter>
+        <p>&copy; 2026 - PABW Meeting 3</p>
+    </fotter>
+</body>
+</html>
