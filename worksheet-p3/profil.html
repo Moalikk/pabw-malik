@@ -7,9 +7,16 @@
 </head>
 <body>
     <header>
-        <img src="Game-Icon.jpg" alt="Game Collection Logo" width="100">
+        <figure>
+            <img src="Game-Icon.jpg"
+                alt="Logo showing a game controller for the collection page"
+                width="100"
+                height="100"
+                loading="lazy">
+                <figcaption>Game Collcetion Icon</figcaption>
+        </figure>
         <h1>My Games Collection</h1>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#game-list">Game List</a></li>
@@ -19,38 +26,39 @@
         <p>A list of games played and a form for adding new items to the collection.</p>
     </header>
     <main>
-        <section>
+        <section id="game-list">
             <h2>Game List</h2>
             <table border="1">
+                <caption>My Played Video game Collection</caption>
                 <thead>
                     <tr>
-                        <th>Title</th>
-                        <th>Genre</th>
-                        <th>Platform</th>
-                        <th>Rating</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Genre</th>
+                        <th scope="col">Platform</th>
+                        <th scope="col">Rating</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Pokémon Legends Z-A</td>
+                        <th scope="row">Pokémon Legends Z-A</th>
                         <td>Action RPG</td>
                         <td>Nintendo Switch</td>
                         <td>5/5</td>
                     </tr>
                     <tr>
-                        <td>Valorant</td>
+                        <th scope="row">Valorant</th>
                         <td>FPS</td>
                         <td>PC</td>
                         <td>3/5</td>
                     </tr>
                     <tr>
-                        <td>Tower Defense Simulator</td>
+                        <th scope="row">Tower Defense Simulator</th>
                         <td>Tower Defense</td>
                         <td>PC & Mobile</td>
                         <td>4/5</td>
                     </tr>
                     <tr>
-                        <td>Tekken 8</td>
+                        <th scope="row">Tekken 8</th>
                         <td>Action</td>
                         <td>Console</td>
                         <td>5/5</td>
@@ -59,7 +67,7 @@
             </table>
         </section>
 
-        <section>
+        <section id="add-game">
             <h2>Add New Game</h2>
             <form action="#" method="POST">
                 <p>
