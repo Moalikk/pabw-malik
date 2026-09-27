@@ -15,4 +15,4 @@ My page topic: video game collection.
 - Image: Game-Icon.jpg
 
 ## Note on AI use
-AI was used to helo git commands.
+AI was used to help git commands.
