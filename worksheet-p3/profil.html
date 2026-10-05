@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Video Games Collection</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -40,29 +41,29 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">Pokémon Legends Z-A</th>
-                        <td>Action RPG</td>
-                        <td>Nintendo Switch</td>
-                        <td>5/5</td>
+                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailPokemon">
+                        <th scope="row">Pokemon Z-A</th>
+                        <td action RPG></td>
+                        <td Nintendo Switch></td>
+                        <td 8/10></td>
                     </tr>
-                    <tr>
+                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailValorant">
                         <th scope="row">Valorant</th>
-                        <td>FPS</td>
-                        <td>PC</td>
-                        <td>3/5</td>
+                        <td FPS></td>
+                        <td PC></td>
+                        <td 7/10></td>
                     </tr>
-                    <tr>
+                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailTowerDefenseSimulator">
                         <th scope="row">Tower Defense Simulator</th>
-                        <td>Tower Defense</td>
-                        <td>PC & Mobile</td>
-                        <td>4/5</td>
+                        <td Tower Defense></td>
+                        <td PC & Mobile></td>
+                        <td 9/10></td>
                     </tr>
-                    <tr>
-                        <th scope="row">Tekken 8</th>
-                        <td>Action</td>
-                        <td>Console</td>
-                        <td>5/5</td>
+                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailValorant">
+                        <th scope="row">Pixel Gun 3D</th>
+                        <td Frist Person Shooter></td>
+                        <td Android & Pc></td>
+                        <td 7/10></td>
                     </tr>
                 </tbody>
             </table>
@@ -110,5 +111,94 @@
     <footer>
         <p>&copy; 2026 - PABW Meeting 3</p>
     </footer>
+    <div class="modal fade" id="detailPokemon" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Pokemon Z-A</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body">
+        <p><Strong>Genre :</Strong> Action RPG</p>
+        <p><Strong>Developer :</Strong> Game Freak</p>
+        <p><Strong>Publisher :</Strong> Nintendo</p>
+        <p><Strong>Realese Date :</Strong> 16 October 2025</p>
+        <p><Strong>Last Updated :</Strong> 9 December 2025</p>
+        <p><Strong>Platform :</Strong> Console</p>
+        <p><Strong>Rating :</Strong> 8/10</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal fade" id="detailValorant" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Valorant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body">
+        <p><Strong>Genre :</Strong> Hero Shooter & Tactical Shooter</p>
+        <p><Strong>Developer :</Strong> Riot Games</p>
+        <p><Strong>Publisher :</Strong> Riot Games</p>
+        <p><Strong>Realese Date :</Strong> 2 June 2020</p>
+        <p><Strong>Last Updated :</Strong> 21 September 2026</p>
+        <p><Strong>Platform :</Strong> Pc & Console</p>
+        <p><Strong>Rating :</Strong> 6/10</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal fade" id="detailTowerDefenseSimulator" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Tower Defense Simulator</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body">
+        <p><Strong>Genre :</Strong> Tower Defense & Strategy</p>
+        <p><Strong>Developer :</Strong> Paradoxum Games</p>
+        <p><Strong>Publisher :</Strong> Roblox</p>
+        <p><Strong>Realese Date :</Strong> 5 Mei 2019</p>
+        <p><Strong>Last Updated :</Strong> 2 October 2026</p>
+        <p><Strong>Platform :</Strong> Pc & Android</p>
+        <p><Strong>Rating :</Strong> 9/10</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+        <div class="modal fade" id="detailPixelGun3D" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Pixel Gun 3D</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body">
+        <p><Strong>Genre :</Strong> Frist Person Shooter</p>
+        <p><Strong>Developer :</Strong> Lightmap</p>
+        <p><Strong>Publisher :</Strong> Cubic Games</p>
+        <p><Strong>Realese Date :</Strong> 4 May 2013</p>
+        <p><Strong>Last Updated :</Strong> 3 October 2026</p>
+        <p><Strong>Platform :</Strong> Android & Pc</p>
+        <p><Strong>Rating :</Strong> 6/10</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
