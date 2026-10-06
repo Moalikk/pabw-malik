@@ -10,7 +10,7 @@ My page topic: video game collection.
 - Description: a collection of video games i play and a form to add new ones
 - Navigation links: Home, Game List, Add Game
 - Two Main Sections: My Game Table, Add New Game
-- Table Columns: Title, Genre, Platform, Rating
+- Table Columns: Title, Genre, Platform, Rating, publisher, release date, latest update
 - Form Columns: Title, Genre, Rating
 - Image: Game-Icon.jpg
 
