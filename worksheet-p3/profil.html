@@ -7,30 +7,33 @@
     <title>My Video Games Collection</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <header>
-        <figure>
+<body data-bs-theme="dark" class="bg-dark text-light">
+    <header class="container bg-dark-subtle p-4 my-4 rounded shadow-sm border border-secondary">
+        <div class="d-flex align-items-center mb-3">
             <img src="Game-Icon.jpg"
-                alt="Logo showing a game controller for the collection page"
-                width="100"
-                height="100"
+                alt="Logo showing a game controler for Collection page"
+                width="60"
+                height="60"
+                class="rounded me-3"
                 loading="lazy">
-                <figcaption>Game Collcetion Icon</figcaption>
-        </figure>
-        <h1>My Games Collection</h1>
+            <div>
+                <h1 class="h2 mb-1 fw-bold text-white">My Games Collections</h1>
+                <p class="text-muted mb-0 small">A list of games played and a form for adding new items to the Collection.</p>
+            </div>
+        </div>
+
         <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#game-list">Game List</a></li>
-                <li><a href="#add-game">Add Game</a></li>
+            <ul class="nav nav-pills border-top pt-2">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#game-list">Game List</a></li>
+                <li class="nav-item"><a class="nav-link" href="#add-game">Add Game</a></li>
             </ul>
         </nav>
-        <p>A list of games played and a form for adding new items to the collection.</p>
     </header>
     <main>
         <section id="game-list">
             <h2>Game List</h2>
-            <table border="1">
+            <table class="table table-bordered table-hover align-middle">
                 <caption>My Played Video game Collection</caption>
                 <thead>
                     <tr>
@@ -43,27 +46,27 @@
                 <tbody>
                     <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailPokemon">
                         <th scope="row">Pokemon Z-A</th>
-                        <td action RPG></td>
-                        <td Nintendo Switch></td>
-                        <td 8/10></td>
+                        <td>action RPG</td>
+                        <td>Nintendo Switch</td>
+                        <td>8/10</td>
                     </tr>
                     <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailValorant">
                         <th scope="row">Valorant</th>
-                        <td FPS></td>
-                        <td PC></td>
-                        <td 7/10></td>
+                        <td>FPS</td>
+                        <td>PC</td>
+                        <td>7/10</td>
                     </tr>
                     <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailTowerDefenseSimulator">
                         <th scope="row">Tower Defense Simulator</th>
-                        <td Tower Defense></td>
-                        <td PC & Mobile></td>
-                        <td 9/10></td>
+                        <td>Tower Defense</td>
+                        <td>PC & Mobile</td>
+                        <td>9/10</td>
                     </tr>
-                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detailValorant">
+                    <tr style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#detaiPixelGun3D">
                         <th scope="row">Pixel Gun 3D</th>
-                        <td Frist Person Shooter></td>
-                        <td Android & Pc></td>
-                        <td 7/10></td>
+                        <td>Frist Person Shooter</td>
+                        <td>Android & Pc</td>
+                        <td>7/10</td>
                     </tr>
                 </tbody>
             </table>
@@ -200,5 +203,6 @@
     </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
