@@ -10,3 +10,18 @@ console.log(role);
 console.log(skills);
 console.log(gameCount);
 console.log(sentence);
+
+const profile = {
+    name: "Muhammad Malik Firdaus",
+    role: "Informatics student who loves playing video games",
+    skills: ["Action RPG", "FPS", "Tower Defense"]
+};
+
+function createIntroduction({ name, role}) {
+    return `${name} — ${role}`;
+}
+
+const formatSkills = (list) => list.join(".");
+
+console.log(createIntroduction(profile));
+console.log(formatSkills(profile.skills));
