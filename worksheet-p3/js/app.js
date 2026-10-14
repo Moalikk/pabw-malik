@@ -40,3 +40,21 @@ console.table(finished);
 
 const catalog = projectList.find((project) => project.title === "productCatalog");
 console.log(catalog);
+
+document.addEventListener("DOMContentLoaded", () => {
+const form = document.querySelector("form");
+
+if (form) {
+    form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const title = document.getElementById("title").value;
+    const genre = document.getElementById("genre").value;
+    const platform = document.getElementById("platform").value;
+    const rating = document.getElementById("rating").value;
+
+    console.log("game baru:", { title, genre, platform, rating});
+    alert('game "${title}" Berhasil diproses');
+});
+}
+});
