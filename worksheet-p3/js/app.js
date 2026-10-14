@@ -59,3 +59,23 @@ if (form) {
 });
 }
 });
+
+import { URL } from './api.js';
+
+async function loadData() {
+    try {
+        const response = await fetch(URL);
+        console.log('status:', response.status, 'ok:', response.ok);
+        
+        if (!response.ok) {
+            throw new Error('status ' + response.status);
+        }
+        
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
+loadData();
