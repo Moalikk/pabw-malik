@@ -11,10 +11,11 @@ console.log(skills);
 console.log(gameCount);
 console.log(sentence);
 
-const projectList = [
-  { title: "Profile Page", year: 2026, finished: true },
-  { title: "productCatalog", year: 2026, finished: false },
-  { title: "Game Collection Dashboard", year: 2026, finished: true }
+export const projectList = [
+  { title: "Pokemon Z-A", genre: "Action RPG", platform: "Nintendo Switch", rating: "8/10" },
+  { title: "Valorant", genre: "FPS", platform: "PC", rating: "7/10" },
+  { title: "Tower Defense Simulator", genre: "Tower Defense", platform: "PC & Mobile", rating: "9/10" },
+  { title: "Pixel Gun 3D", genre: "First Person Shooter", platform: "Android & PC", rating: "7/10" }
 ];
 
 const profile = {
